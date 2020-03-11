@@ -1,0 +1,6 @@
+name: "simple-powers"
+displayName: "[orange]Simple Powers[gold] Mod"
+author: "Totoki"
+description: "Simple way to get powers."
+version: "0.1"
+minGameVersion: "104"
