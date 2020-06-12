@@ -1,0 +1,15 @@
+name: Dry Battery
+description: One-time not rechargable battery.
+size: 1
+requirements: [
+  copper/20
+  lead/100
+]
+consumes: {
+    power: {
+        capacity: 5
+        buffered: true
+    }
+}
+category: power
+research: battery
