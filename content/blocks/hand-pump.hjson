@@ -1,0 +1,12 @@
+name: Hand pump
+description: Pump up liquid with tapping / clicking.
+size: 1
+requirements: [
+  copper/15
+  lead/30
+]
+consumes: {}
+category: liquid
+solid: true
+research: mechanical-pump
+liquidCapacity: 10
