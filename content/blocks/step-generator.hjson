@@ -1,5 +1,5 @@
-name: Step Generator
-description: Generate power by tapping, clicking or stepping on.
+//name: Step Generator
+//description: Generate power by tapping, clicking or stepping on.
 size: 1
 requirements: [
   copper/15

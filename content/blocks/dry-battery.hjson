@@ -1,5 +1,5 @@
-name: Dry Battery
-description: One-time not rechargable battery.
+//name: Dry Battery
+//description: One-time not rechargable battery.
 size: 1
 requirements: [
   copper/20
@@ -7,9 +7,12 @@ requirements: [
 ]
 consumes: {
     power: {
-        capacity: 5
+        usage: 10
+        capacity: 10
         buffered: true
     }
 }
 category: power
 research: battery
+emptyLightColor: 7c3348
+fullLightColor: fa6d68

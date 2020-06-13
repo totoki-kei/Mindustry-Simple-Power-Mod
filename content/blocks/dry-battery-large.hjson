@@ -1,0 +1,19 @@
+//name: Large Dry Battery
+//description: Large disposable battery.
+size: 3
+requirements: [
+  lead/100
+  titanium/50
+  silicon/50
+]
+consumes: {
+    power: {
+        usage: 100
+        capacity: 100
+        buffered: true
+    }
+}
+category: power
+research: dry-battery
+emptyLightColor: 7c3348
+fullLightColor: fa6d68
