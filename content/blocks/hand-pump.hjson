@@ -10,3 +10,4 @@ category: liquid
 solid: true
 research: mechanical-pump
 liquidCapacity: 10
+floating: true

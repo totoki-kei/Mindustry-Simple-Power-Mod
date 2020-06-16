@@ -1,6 +1,6 @@
 //const handPump = extendContent(LiquidBlock, "hand-pump", {
 const handPump = extendContent(LiquidTank, "hand-pump", {
-        tapped(tile, player){
+    tapped(tile, player){
         //Log.info("tapped.");
         var liquidDrop = tile.floor().liquidDrop;
 
@@ -9,7 +9,7 @@ const handPump = extendContent(LiquidTank, "hand-pump", {
             //     liquidCapacity - tile.entity.liquids.total(),
             //     1
             // ) * tile.entity.efficiency();
-            var maxPump = 1;
+            var maxPump = 5;
 
             tile.entity.liquids.add(liquidDrop, maxPump);
             Effects.effect(Fx.dooropen, Tmp.c1.set(Color.valueOf("84f491")), tile.drawx(), tile.drawy(), tile.block().size);
@@ -17,7 +17,9 @@ const handPump = extendContent(LiquidTank, "hand-pump", {
 
     },
     canPlaceOn(tile){
-        return tile != null && tile.floor().liquidDrop != null;
+        const ret = tile != null && tile.floor().liquidDrop != null;
+        //print("canPlaceOn: " + ret);
+        return ret;
     }
 
 });

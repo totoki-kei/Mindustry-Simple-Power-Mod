@@ -16,3 +16,4 @@ category: power
 research: battery
 emptyLightColor: 7c3348
 fullLightColor: fa6d68
+buildCostMultiplier: 0.125
